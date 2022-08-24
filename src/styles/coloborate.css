@@ -1,0 +1,38 @@
+.colobarate{
+    padding: 80px 0;
+}
+
+.coloborate-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.coloborate-info {
+  width: 50%;
+}
+.coloborate-title {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 400;
+  margin-bottom: 38px;
+}
+.coloborate-title span {
+  color: #fff;
+  display: block;
+}
+
+.coloborate-subtitle {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.coloborate-subtitle span {
+  color: #fff;
+  display: block;
+}
+
+.coloborate-img {
+}
