@@ -1,8 +1,12 @@
-@import url('./header.css');
-@import url('./main-content.css');
-
+@import url("./header.css");
+@import url("./main-content.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Work+Sans:wght@500;600;700&display=swap");
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
 * {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #013a4c;
 }
 
@@ -17,16 +21,26 @@ li {
   padding: 11px 17px;
   border-radius: 4px;
   font-size: 14px;
+  font-weight: 400;
 }
 .btn-empty {
   background: transparent;
   border: 1px solid #346170;
 }
 
+.btn-full {
+  color: #fff;
+  background: #013a4c;
+}
+
 .container {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.title-font {
+  font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 1200px) {
