@@ -1,0 +1,32 @@
+.receivers {
+    padding: 122px 0;
+}
+
+.receivers-wrap {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 122px;
+  }
+
+  .receivers-title {
+    color: #013A4C;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .receivers-title span {
+    color: #013A4C;
+    display: block;
+  }
+
+  .receivers-img{
+    content: "";
+    position: absolute;
+    top: 2600px;
+    left: 0;
+    background-size: cover;
+    z-index: -1;
+    width: 100vh;
+}

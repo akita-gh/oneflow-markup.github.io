@@ -1,0 +1,7 @@
+.video {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #D29DA9;
+    z-index: 1;
+}
