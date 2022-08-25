@@ -4,6 +4,9 @@
 @import url('./coloborate.css');
 @import url('./video.css');
 @import url('./receivers.css');
+@import url('./contracts.css');
+@import url('./reviews.css');
+@import url('./integrations.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Work+Sans:wght@500;600;700&display=swap');
 /* 
 font-family: 'Roboto', sans-serif;
@@ -34,14 +37,31 @@ li {
   font-size: 14px;
   font-weight: 400;
 }
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #f7c041;
+}
+
 .btn-empty {
   background: transparent;
   border: 1px solid #346170;
 }
 
+.btn-empty:hover {
+  background: #2b5f70;
+  border: 1px solid #2b5f70;
+  color: #fff;
+}
+
 .btn-full {
   color: #fff;
   background: #013a4c;
+}
+
+.btn-full:hover {
+  color: #fff;
+  background: #1e5668;
 }
 
 .container {
