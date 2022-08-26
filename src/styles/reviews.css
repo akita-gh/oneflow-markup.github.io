@@ -1,84 +1,67 @@
 .reviews {
-    background: #fff;
-    display: flex;
+  position: relative;
+  background: #fff;
+  display: flex;
 }
 
 .reviews-title {
-    margin-top: 127px;
-    font-weight: 400;
-    font-size: 48px;
+  margin-top: 127px;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+}
+
+.h {
+  overflow-x: hidden;
+}
+
+.reviews-slider {
+  width: 1000%;
+  transition: 0.3s;
+}
+
+.reviews-cards {
+  display: flex;
+  transition: 0.3s;
+  margin-top: 56px;
+  margin-bottom: 142px;
 }
 
 .reviews-card {
-    margin-top: 56px;
-    margin-bottom: 142px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.reviews-card1 {
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #D6DFE2;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    padding: 65px 32px;
-    flex-direction: column;
-    margin: 0 16px;
-}
-
-.reviews-card2 {
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #D6DFE2;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    padding: 65px 32px;
-    flex-direction: column;
-    margin: 0 16px;
-}
-
-.reviews-card3 {
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #D6DFE2;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    padding: 65px 32px;
-    flex-direction: column;
-    margin: 0 16px;
+  background: #ffffff;
+  border: 1px solid #d6dfe2;
+  border-radius: 8px;
+  padding: 65px 32px;
+  margin: 0 16px;
 }
 
 .reviews-card-title {
-    font-weight: 400;
-    font-size: 18px;
-    font-family: 'Work Sans';
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Work Sans';
 }
 
 .reviews-navigation {
-    margin-top: 18px;
+  margin-top: 18px;
 }
 
 .reviews-navigation p {
-    color: #89285B;
-    font-weight: 400;
-    font-size: 14px;
-    font-family: 'Work Sans';
+  color: #89285b;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Work Sans';
 }
 
 .reviews-navigation p:hover {
-    cursor: pointer;
-    color: #b91e71;
+  cursor: pointer;
+  color: #b91e71;
 }
 .reviews-user-message {
-    display: flex;
-    align-items: center;
-    margin-top: 98px;
+  display: flex;
+  align-items: center;
+  margin-top: 98px;
 }
 
 .reviews-username p {
-    margin-left: 16px;
+  margin-left: 16px;
 }
