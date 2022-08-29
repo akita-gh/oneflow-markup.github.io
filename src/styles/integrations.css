@@ -1,8 +1,53 @@
 .integrations {
-    background: #fff;
-    display: flex;
+  background: #fff;
 }
 
 .integrations-wrap {
-    margin-top: 216px;
+  padding: 216px 0;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.integrations-title {
+  color: #013a4c;
+  font-weight: 400;
+  font-size: 72px;
+  margin-bottom: 30px;
+}
+
+.integrations-subtitle {
+  color: #013a4c;
+  font-weight: 400;
+  font-size: 21px;
+  font-family: "Work Sans";
+  margin-bottom: 18px;
+}
+
+.integration-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    justify-content: space-around;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    justify-content: space-around;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    justify-content: space-around;
 }
