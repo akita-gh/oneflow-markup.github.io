@@ -1,0 +1,40 @@
+.moreoneflow {
+  background: #fff;
+  padding: 256px 0;
+}
+
+.moreoneflow-wrap {
+}
+
+.moreoneflow-title {
+  color: #013a4c;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+.moreoneflow-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.moreoneflow-card p {
+  text-align: center;
+}
+
+.moreoneflow-card p:nth-child(2) {
+    margin-top: 18px;
+  }
+
+.moreoneflow-card p:nth-child(3) {
+  text-align: center;
+  font-weight: 400;
+  font-size: 31px;
+  margin-top: 19px;
+}
+
+.moreoneflow-card button {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 21px;
+}
