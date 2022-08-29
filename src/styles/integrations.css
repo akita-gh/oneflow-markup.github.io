@@ -1,12 +1,13 @@
 .integrations {
   background: #fff;
+  padding: 216px 0;
 }
 
 .integrations-wrap {
-  padding: 216px 0;
   display: flex;
   justify-content: space-between;
-  height: 100%;
+  align-items: center;
+  height: 572px;
 }
 
 .integrations-title {
@@ -20,34 +21,31 @@
   color: #013a4c;
   font-weight: 400;
   font-size: 21px;
-  font-family: "Work Sans";
+  font-family: 'Work Sans';
   margin-bottom: 18px;
 }
 
 .integration-icons {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 100%;
 }
 
 .row1 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 24px;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .row2 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 24px;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .row3 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 24px;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
