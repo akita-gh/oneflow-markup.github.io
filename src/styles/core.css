@@ -7,7 +7,11 @@
 @import url('./contracts.css');
 @import url('./reviews.css');
 @import url('./integrations.css');
+<<<<<<< HEAD
+@import url('./footer.css');
+=======
 @import url('./moreoneflow.css');
+>>>>>>> 641e187d5c6ea4d842fd69fc7e266ae97e54161d
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Work+Sans:wght@500;600;700&display=swap');
 /* 
 font-family: 'Roboto', sans-serif;
@@ -15,7 +19,7 @@ font-family: 'Work Sans', sans-serif;
 */
 * {
   font-family: 'Work Sans', sans-serif;
-  color: #013a4c;
+  /* color: #013a4c; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
